@@ -1,27 +1,41 @@
 # Express Note Taker App
 
-  [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)]
+## User Story
 
-  ##Table of Contents:
-  * [Description](#description)
-  * [Installation](#install)
-  * [Usage](#usage)
-  * [Tests](#tests)
-  * [Questions](#questions)
-  * [License](#licenses)
+```
+AS A small business owner
+I WANT to be able to write and save notes
+SO THAT I can organize my thoughts and keep track of tasks I need to complete
+```
 
-  ##Description
-  Simple note taker app in express
+## Acceptance Criteria
 
-  ##Installation
-  Download files
+```
+GIVEN a note-taking application
+WHEN I open the Note Taker
+THEN I am presented with a landing page with a link to a notes page
+WHEN I click on the link to the notes page
+THEN I am presented with a page with existing notes listed in the left-hand column, plus empty fields to enter a new note title and the note’s text in the right-hand column
+WHEN I enter a new note title and the note’s text
+THEN a Save icon appears in the navigation at the top of the page
+WHEN I click on the Save icon
+THEN the new note I have entered is saved and appears in the left-hand column with the other existing notes
+WHEN I click on an existing note in the list in the left-hand column
+THEN that note appears in the right-hand column
+WHEN I click on the Write icon in the navigation at the top of the page
+THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
+```
+  
+##Description
+```
+Simple note taker app in express.
+```
 
-  ##Tests
-  N/A
+## Link to Deployed Application
+[Link to Deployed Webpage](https://calm-peak-08000.herokuapp.com/notes)
 
-  ##Questions
-  Questions? Please reach out to me on Github at https:github.com/llting592 or email me at llting592@gmail.com
+## Screenshot
+![Screenshot](https://github.com/llting592/Express-Note-Taker-App/blob/main/demo.png)
 
-  ##License
-    This project is covered under the MIT license.
+ 
 
