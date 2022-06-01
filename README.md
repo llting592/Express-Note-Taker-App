@@ -14,6 +14,9 @@ First, clone the files from Github. Next, need to install the prerequisite packa
 No tests were done for this app.
 
 ## Link to Deployed Application
+
+This app was deployed to Heroku. 
+
 [Link to Deployed Webpage](https://calm-peak-08000.herokuapp.com/notes)
 
 ## Screenshot
